@@ -20,7 +20,7 @@ li{
 
 .header-content{
     width: 1280px;
-    background:pink;
+    /* background:pink; */
     margin: 0 auto;
     overflow: hidden;
     line-height: 100px;
@@ -42,4 +42,42 @@ li{
 .header-nav li a{
     color: #000;
     text-decoration: none;
+}
+
+.header-nav li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.banner{
+    height: 620px;
+    background: url("../images/banner.png") no-repeat top center;
+    background-size: cover;
+}
+.service{
+    width: 1055px;
+    height: 400px;
+    margin: 74px auto;
+    /* background-color:blueviolet; */
+}
+.service-desc{
+    padding: 0 24px;
+    border-top: #ccc 1px solid;
+}
+.service-desc h3{
+    /* margin: -10px auto 0px; */
+    text-align: center;
+}
+.service-desc h3 img{
+    margin: -10px auto 24px;
+    /* text-align: center; */
+}
+.service-desc p{
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color:#666;
+    width: 850px;
+    margin: 0 auto;
 }
